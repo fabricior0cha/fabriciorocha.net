@@ -48,12 +48,16 @@ export const HEADER: Header = {
 	 */
 	internal: [
 		{
-			title: 'Blog',
-			url: '/blog/',
+			title: 'Tags',
+			url: '/tags/',
 		},
 		{
 			title: 'About',
 			url: '/about/',
+		},
+		{
+			title: 'Bookmarks',
+			url: '/bookmarks/',
 		},
 	],
 	/**
@@ -63,13 +67,6 @@ export const HEADER: Header = {
 		{
 			title: 'Bluesky',
 			url: 'https://bsky.app/profile/lekoarts.de',
-			props: {
-				target: '_blank',
-			},
-		},
-		{
-			title: 'Homepage',
-			url: 'https://www.lekoarts.de/?utm_source=astro-theme-minimal-blog',
 			props: {
 				target: '_blank',
 			},

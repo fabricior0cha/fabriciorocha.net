@@ -1,0 +1,16 @@
+---
+import Layout from '@layouts/layout.astro'
+import Seo from '@components/seo.astro'
+import { Content as BookmarksContent } from '@assets/bookmarks.mdx'
+import SkipNavContent from '@components/a11y/skip-nav-content.astro'
+import Prose from '@components/prose.astro'
+---
+
+<Layout>
+	<Seo slot="seo" title="Bookmarks" />
+	<SkipNavContent>
+		<Prose>
+			<BookmarksContent />
+		</Prose>
+	</SkipNavContent>
+</Layout>
