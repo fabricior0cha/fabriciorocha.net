@@ -11,11 +11,11 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Site-wide title
 	 */
-	title: 'Minimal Blog',
+	title: 'Fabricio\'s Blog',
 	/**
 	 * Used on index page and as a fallback if no title is set
 	 */
-	titleDefault: 'Astro Theme: Minimal Blog',
+	titleDefault: 'Fabricio\'s Blog',
 	/**
 	 * Used in meta tags, RSS feed, and other places
 	 */
@@ -23,7 +23,7 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Language used in the <html> tag
 	 */
-	lang: 'en-US',
+	lang: 'pt-BR',
 	/**
 	 * Name of the image inside `public` folder that should be used as a default og:image
 	 */
