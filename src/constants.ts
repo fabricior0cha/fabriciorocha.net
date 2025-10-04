@@ -7,7 +7,7 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Base URL of your site, used in sitemap generation
 	 */
-	url: 'https://astro-theme-minimal-blog.lekoarts.de',
+	url: 'http://localhost:4321',
 	/**
 	 * Site-wide title
 	 */

@@ -1,0 +1,19 @@
+<div id="utterances-container" style="margin-top: 2.5rem;"></div>
+
+<script>
+  const script = document.createElement("script");
+  const container = document.querySelector("#utterances-container");
+
+  Object.entries({
+    src: "https://utteranc.es/client.js",
+    repo: "fabricior0cha/fabriciorocha.net",
+    "issue-term": "pathname",
+    label: "post comments",
+    theme: "github-light",
+    crossorigin: "anonymous",
+  }).forEach(([key, value]) => {
+    script.setAttribute(key, value);
+  });
+
+  container?.appendChild(script);
+</script>
