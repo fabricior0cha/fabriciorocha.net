@@ -7,7 +7,7 @@ export const SITE: Record<string, string> = {
 	/**
 	 * Base URL of your site, used in sitemap generation
 	 */
-	url: 'http://localhost:4321',
+	url: 'https://fabriciorocha.netlify.app/',
 	/**
 	 * Site-wide title
 	 */
